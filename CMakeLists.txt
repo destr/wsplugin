@@ -3,8 +3,6 @@ project(wsplugin)
 
 include_directories(${CMAKE_SOURCE_DIR}/src/include)
 
-#cmake_policy(SET CMP0071 NEW)
-
 find_package(Qt5 REQUIRED COMPONENTS Core Network)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
