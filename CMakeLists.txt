@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 project(wsplugin)
 
 include_directories(${CMAKE_SOURCE_DIR}/src/include)
-
+find_package(PkgConfig)
 find_package(Qt5 REQUIRED COMPONENTS Core Network)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTOUIC ON)
